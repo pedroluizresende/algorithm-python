@@ -19,24 +19,24 @@ def merge_sort(caracters, start=0, end=None):
         merge(caracters, start, mid, end)
 
 
-def merge(caracters, start, mid, end):
-    left = caracters[start:mid]
-    right = caracters[mid:end]
+def merge(arr, start, mid, end):
+    left = arr[start:mid]
+    right = arr[mid:end]
 
     left_index, right_index = 0, 0
 
     for general_index in range(start, end):
         if left_index >= len(left):
-            caracters[general_index] = right[right_index]
+            arr[general_index] = right[right_index]
             right_index = right_index + 1
         elif right_index >= len(right):
-            caracters[general_index] = left[left_index]
+            arr[general_index] = left[left_index]
             left_index = left_index + 1
         elif left[left_index] < right[right_index]:
-            caracters[general_index] = left[left_index]
+            arr[general_index] = left[left_index]
             left_index = left_index + 1
         else:
-            caracters[general_index] = right[right_index]
+            arr[general_index] = right[right_index]
             right_index = right_index + 1
 
 
