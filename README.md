@@ -1,14 +1,14 @@
 # Algorithm Python
 
-Este projeto faz parte do curso de Desenvolvimento Web da Trybe e consiste em uma coleção de algoritmos implementados em Python. Cada algoritmo aborda um problema específico e oferece uma solução escrita na linguagem Python.
+This project is part of the Trybe Web Development course and consists of a collection of algorithms implemented in Python. Each algorithm addresses a specific problem and provides a solution written in the Python language.
 
-## Objetivo
+## Objective
 
-O objetivo por trás deste projeto era consolidar os aprendizados em Python, e principalmente exercitar os conceitos aprendidos nos estudos de **Algorítmos**, como, Complexidade Algorítmica, Recursividade e Algorítimos de Ordenação e Busca
+The objective behind this project was to consolidate the learnings in Python, and mainly to exercise the concepts learned in the study of **Algorithms**, such as Algorithmic Complexity, Recursion, and Sorting and Searching Algorithms.
 
-## Estrutura do Projeto
+## Project Structure
 
-O projeto está organizado em diferentes um contendo os algorítmos e outro contendo o teste do algorítmo `encrypt`(neste caso este algorítmo não precisei criar, o requisito do projeto era realizar seus testes). A estrutura de diretórios é a seguinte:
+The project is organized into different directories, one containing the algorithms and another containing the `encrypt` algorithm tests (in this case, I didn't need to create the algorithm itself, the project requirement was to perform its tests). The directory structure is as follows:
 
 ```
 ├── challenges
@@ -24,11 +24,11 @@ O projeto está organizado em diferentes um contendo os algorítmos e outro cont
 │ └── prime_numbers.py
 ```
 
-## Como usar
+## How to Use
 
-Após clonar o repositório, criar um ambiente virtual e instalar as dependências. Entre no diretório challenges e rode um dos arquivos
+After cloning the repository, creating a virtual environment, and installing the dependencies, navigate to the `challenges` directory and run one of the files.
 
-Por exemplo, para executar o algoritmo (`challenge_anagrams.py`), você pode usar o seguinte comando:
+For example, to execute the algorithm (`challenge_anagrams.py`), you can use the following command:
 
 ```bash
 python3 challenge_anagrams.py
