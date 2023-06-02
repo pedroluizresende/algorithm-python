@@ -1,13 +1,35 @@
-# :construction: README customizado em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto no qual você pode customizar e reutilizar todas as vezes que for executar o trybe-publisher.
+# Algorithm Python
 
-Para deixá-lo com a sua cara, basta alterar o seguinte arquivo da sua máquina: ~/.student-repo-publisher/custom/_NEW_README.md
+Este projeto faz parte do curso de Desenvolvimento Web da Trybe e consiste em uma coleção de algoritmos implementados em Python. Cada algoritmo aborda um problema específico e oferece uma solução escrita na linguagem Python.
 
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+## Objetivo
+
+O objetivo por trás deste projeto era consolidar os aprendizados em Python, e principalmente exercitar os conceitos aprendidos nos estudos de **Algorítmos**, como, Complexidade Algorítmica, Recursividade e Algorítimos de Ordenação e Busca
+
+## Estrutura do Projeto
+
+O projeto está organizado em diferentes um contendo os algorítmos e outro contendo o teste do algorítmo `encrypt`(neste caso este algorítmo não precisei criar, o requisito do projeto era realizar seus testes). A estrutura de diretórios é a seguinte:
+
+```
+├── challenges
+│ ├── challenge_anagrams.py
+│ ├── challenge_encrypt.py
+│ └── challenge_find_the_duplicate.py
+│ ├── challenge_palindromes_iterative.py
+│ ├── challenge_palindromes_recursive.py
+│ └── challenge_study_schedule.py
+├── tests
+│ ├── test_encrypt.py
+│ ├── fibonacci.py
+│ └── prime_numbers.py
+```
+
+## Como usar
+
+Após clonar o repositório, criar um ambiente virtual e instalar as dependências. Entre no diretório challenges e rode um dos arquivos
+
+Por exemplo, para executar o algoritmo (`challenge_anagrams.py`), você pode usar o seguinte comando:
+
+```bash
+python3 challenge_anagrams.py
+```
